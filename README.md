@@ -1,29 +1,28 @@
 # apiBoutiqueSymfony
 
-Executé composer install
-Executé php bin/console doctrine:database:create
-Executé php bin/console doctrine:migrations:migrate
-
-Executé php bin/console doctrine:fixtures:load
+<p>Executé composer install</p>
+<p>Executé php bin/console doctrine:database:create</p>
+<p>Executé php bin/console doctrine:migrations:migrate</p>
+<p>Executé php bin/console doctrine:fixtures:load</p>
 
 <p>recuperation token:</p>
 <p>utilisé postman:</p>
-http://localhost:8000/api/login_check
-mettre les info suivantes dans le headers:
-[{"key":"Content-Type","value":"application/json","description":""}]
-mettre les info suivantes dans le body:
+<p>http://localhost:8000/api/login_check</p>
+<p>mettre les info suivantes dans le headers:</p>
+<p>[{"key":"Content-Type","value":"application/json","description":""}]</p>
+<p>mettre les info suivantes dans le body:</p>
 {
 "username": "redouane",
 "password": "admin"
 }
 
-Récupéré la liste des chaussure:
+<p>Récupéré la liste des chaussure:</p>
 <p>utilisé postman:</p>
-http://localhost:8000/api/chaussures
-mettre les info suivantes dans le headers:
-autorization:
+<p>http://localhost:8000/api/chaussures</p>
+<p>mettre les info suivantes dans le headers:</p>
+<p>autorization:</p>
 
-Bearer Token valeur du token
+<p>Bearer Token valeur du token</p>
 
 
 
